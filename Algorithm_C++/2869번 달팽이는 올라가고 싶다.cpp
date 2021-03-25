@@ -24,14 +24,3 @@ int main()
 	return 0;
 }
 
-/*
-void snail(long long& day,long long height)
-{
-	// 낮에 올라감. 이미
-	if (height >= V)return;
-	day++;
-	height -= B;
-	snail(day, height + A);
-	return;
-}
-*/

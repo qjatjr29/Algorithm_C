@@ -13,5 +13,250 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\분할 정복">
+      <UniqueIdentifier>{0a12f785-028e-4133-89af-a0ba30ddf3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\브루트포스">
+      <UniqueIdentifier>{1571dc5d-6da2-47fc-b7b1-b2762ab8a4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\동적계획법">
+      <UniqueIdentifier>{defe4394-7dd3-4835-9cde-afd10c8f8037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\탐욕법">
+      <UniqueIdentifier>{57c09377-1162-4616-8172-5c0b6260cb1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\큐,스텍,덱">
+      <UniqueIdentifier>{7677ffdb-9368-4da2-9017-8f802bb8de26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\트리">
+      <UniqueIdentifier>{3e1d3af7-6f5f-4fd1-b193-4b512abe972c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\우선순위 큐, 힙">
+      <UniqueIdentifier>{487b4661-dfe1-47f5-b2ec-dafe1b1d219d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\오일러서킷,너비우선탐색">
+      <UniqueIdentifier>{39d152a8-6593-4b2a-bc64-ba4c65969cdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\깊이우선탐색">
+      <UniqueIdentifier>{64491601-6016-4603-a685-47d9b4302c35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\최단경로알고리즘">
+      <UniqueIdentifier>{55019756-0e28-49fb-88ae-80232b18abee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="6.3 소풍.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="6.5 게임판 덮기.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="6.7 외판원 문제.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="12100번 2048.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="보글게임.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
+    <ClCompile Include="7.3 쿼드 트리 뒤집기.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="7.4 울타리 잘라내기.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="2447번 별찍기 10.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="10830번 행렬 곱셈cpp.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="1992번 쿼드트리.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
+    <ClCompile Include="1003번 피보나치 함수.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="1463번 1로 만들기.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="1890번 점프.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="2869번 달팽이는 올라가고 싶다.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="11726번 2xN타일링.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="비대칭 타일링.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="삼각형 위의 최대경로.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="외발 뛰기.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="원주율 외우기.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="장마가 찾아왔다.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="최대 증가 부분 수열.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="타일링 방법의 수 세기.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
+    <ClCompile Include="도시락 데우기.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="1080번 행렬.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="1758번 알바생 강호.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="1931번 회의실 배정.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="1946번 신입사원.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="4796번 캠핑.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="11047번 동전0.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="출전 순서 정하기.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="BRACKETS2.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="JOSEPHUS.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="2164번 카드2.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="3190번 뱀.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="5430번 AC.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="9012번 괄호.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="17298번 오큰수.cpp">
+      <Filter>소스 파일\큐,스텍,덱</Filter>
+    </ClCompile>
+    <ClCompile Include="1068번 트리.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="2263번 트리의 순회.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="4256번 트리.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="5639번 이진 검색 트리.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="9372번 상근이의 여행.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="11437번 LCA.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="TRAVERSAL.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="11725번 트리의 부모찾기.cpp">
+      <Filter>소스 파일\트리</Filter>
+    </ClCompile>
+    <ClCompile Include="1477번 휴게소 세우기.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="1655번 가운데를 말해요.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="1766번 문제집.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="1927번 최소힙.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="2696번 중앙값 구하기.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="RUNNUNGMEDIAN.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1199번 오일러 회로.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1260 DFS와 BFS.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\2178번 미로탐색.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\7562번 나이트의 이동.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\7576번 토마토.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\16168번 퍼레이드.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\WORDCHAINcpp.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1516번 게임개발.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\2529번 부등호.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\4963번 섬의개수.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\11724번 연결요소의 개수.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\DICTIONARY.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1238번 파티.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1261번 알고스팟.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1504번 특정한 최단 경로.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1753번 최단경로.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\1916번 최소비용구하기.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\13549번 숨바꼭질 3.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\c++\2021 알고리즘 스터디\2021 알고리즘 스터디\ROUTING.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="1788번 피보나치 수의 확장.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
