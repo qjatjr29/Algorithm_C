@@ -43,6 +43,9 @@
     <Filter Include="소스 파일\최단경로알고리즘">
       <UniqueIdentifier>{55019756-0e28-49fb-88ae-80232b18abee}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\프로그래머스">
+      <UniqueIdentifier>{817d71d8-3f47-4aa8-bfda-7e389dfa382b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="6.3 소풍.cpp">
@@ -272,6 +275,12 @@
     </ClCompile>
     <ClCompile Include="프로그래머스 - 체육복.cpp">
       <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="스킬트리.cpp">
+      <Filter>소스 파일\프로그래머스</Filter>
+    </ClCompile>
+    <ClCompile Include="11722번 가장 긴 감소하는 부분수열.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
