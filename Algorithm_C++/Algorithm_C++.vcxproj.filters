@@ -267,5 +267,11 @@
     <ClCompile Include="10844번 쉬운 계단 수.cpp">
       <Filter>소스 파일\동적계획법</Filter>
     </ClCompile>
+    <ClCompile Include="13305번 주유소.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스 - 체육복.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
