@@ -282,5 +282,8 @@
     <ClCompile Include="11722번 가장 긴 감소하는 부분수열.cpp">
       <Filter>소스 파일\동적계획법</Filter>
     </ClCompile>
+    <ClCompile Include="1715번 카드 정렬하기.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
