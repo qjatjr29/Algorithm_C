@@ -291,5 +291,8 @@
     <ClCompile Include="1783번 병든 나이트.cpp">
       <Filter>소스 파일\탐욕법</Filter>
     </ClCompile>
+    <ClCompile Include="1339번 단어수학.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
