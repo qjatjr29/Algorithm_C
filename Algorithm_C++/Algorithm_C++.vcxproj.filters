@@ -297,5 +297,8 @@
     <ClCompile Include="2347번 저울.cpp">
       <Filter>소스 파일\탐욕법</Filter>
     </ClCompile>
+    <ClCompile Include="2133번 타일채우기.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
