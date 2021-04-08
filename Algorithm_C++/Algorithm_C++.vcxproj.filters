@@ -300,5 +300,8 @@
     <ClCompile Include="2133번 타일채우기.cpp">
       <Filter>소스 파일\동적계획법</Filter>
     </ClCompile>
+    <ClCompile Include="1107번.cpp">
+      <Filter>소스 파일\브루트포스</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
