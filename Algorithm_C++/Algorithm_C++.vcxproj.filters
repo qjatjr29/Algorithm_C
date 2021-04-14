@@ -303,5 +303,11 @@
     <ClCompile Include="1107번.cpp">
       <Filter>소스 파일\브루트포스</Filter>
     </ClCompile>
+    <ClCompile Include="2212번 센서.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
+    <ClCompile Include="14600번 샤워실 바닥깔기.cpp">
+      <Filter>소스 파일\분할 정복</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
