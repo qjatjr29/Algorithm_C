@@ -321,5 +321,8 @@
     <ClCompile Include="9935번 문자열 폭발.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="2847번 게임을 만든 동준이.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
