@@ -324,5 +324,8 @@
     <ClCompile Include="2847번 게임을 만든 동준이.cpp">
       <Filter>소스 파일\탐욕법</Filter>
     </ClCompile>
+    <ClCompile Include="11055번 가장 큰 증가 부분수열.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
