@@ -333,5 +333,8 @@
     <ClCompile Include="2667번 단지번호붙이기.cpp">
       <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="2606번 바이러스.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
