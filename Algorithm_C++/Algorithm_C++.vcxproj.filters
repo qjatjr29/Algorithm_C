@@ -342,5 +342,8 @@
     <ClCompile Include="1012번 유기농배추.cpp">
       <Filter>소스 파일\깊이우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="2468번 안전 영역.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
