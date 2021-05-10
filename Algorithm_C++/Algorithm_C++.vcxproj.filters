@@ -351,5 +351,8 @@
     <ClCompile Include="2583번 영역 구하기.cpp">
       <Filter>소스 파일\깊이우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="7569번 토마토.cpp">
+      <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
