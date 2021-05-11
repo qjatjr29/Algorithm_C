@@ -354,5 +354,8 @@
     <ClCompile Include="7569번 토마토.cpp">
       <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="4949번 균형잡힌세상.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
