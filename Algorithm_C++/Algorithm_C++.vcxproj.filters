@@ -357,5 +357,8 @@
     <ClCompile Include="4949번 균형잡힌세상.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="1316번 그룹단어체커.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
