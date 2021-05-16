@@ -360,5 +360,8 @@
     <ClCompile Include="1316번 그룹단어체커.cpp">
       <Filter>소스 파일\문자열</Filter>
     </ClCompile>
+    <ClCompile Include="2294번 동전 2.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
