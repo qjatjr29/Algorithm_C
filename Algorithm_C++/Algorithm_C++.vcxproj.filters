@@ -363,5 +363,8 @@
     <ClCompile Include="2294번 동전 2.cpp">
       <Filter>소스 파일\동적계획법</Filter>
     </ClCompile>
+    <ClCompile Include="1449번 수리공 항승.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
