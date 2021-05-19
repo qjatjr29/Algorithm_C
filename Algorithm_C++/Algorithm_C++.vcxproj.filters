@@ -369,5 +369,8 @@
     <ClCompile Include="13460번 구슬탈출 2.cpp">
       <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="1753번 최단경로 다시풀어보기.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
