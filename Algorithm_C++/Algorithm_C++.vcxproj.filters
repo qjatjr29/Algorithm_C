@@ -372,5 +372,8 @@
     <ClCompile Include="1753번 최단경로 다시풀어보기.cpp">
       <Filter>소스 파일\최단경로알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="14496번 그대, 그머가 되어.cpp">
+      <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
