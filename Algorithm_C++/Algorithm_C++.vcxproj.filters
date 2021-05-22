@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\문자열">
       <UniqueIdentifier>{46fd6ff5-f4a0-42f1-a571-52a6673e05be}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\수학">
+      <UniqueIdentifier>{85302deb-392e-4b5c-97bd-d9aac56799b8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="6.3 소풍.cpp">
@@ -377,6 +380,21 @@
     </ClCompile>
     <ClCompile Include="11779번 최소비용구하기2.cpp">
       <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="1987번 알파벳.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
+    <ClCompile Include="3036번 링.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="1124번 언더프라임.cpp">
+      <Filter>소스 파일\수학</Filter>
+    </ClCompile>
+    <ClCompile Include="11656번 접미사 배열.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="2302번 극장좌석.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
