@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\구현">
       <UniqueIdentifier>{90d0f359-c06e-475d-a6e8-8c4107102313}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\최소스패닝트리">
+      <UniqueIdentifier>{4ebdb13f-5312-4c54-8106-be189bd3ded3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="6.3 소풍.cpp">
@@ -404,6 +407,9 @@
     </ClCompile>
     <ClCompile Include="18352번 특정 거리의 도시 찾기.cpp">
       <Filter>소스 파일\최단경로알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="1922번 네트워크 연결.cpp">
+      <Filter>소스 파일\최소스패닝트리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
