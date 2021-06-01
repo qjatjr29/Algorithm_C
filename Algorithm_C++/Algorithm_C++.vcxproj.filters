@@ -411,5 +411,8 @@
     <ClCompile Include="1922번 네트워크 연결.cpp">
       <Filter>소스 파일\최소스패닝트리</Filter>
     </ClCompile>
+    <ClCompile Include="2225번 합분해.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
