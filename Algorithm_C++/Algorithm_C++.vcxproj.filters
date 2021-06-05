@@ -420,5 +420,8 @@
     <ClCompile Include="2644번 촌수계산.cpp">
       <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="16953번 AB.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
