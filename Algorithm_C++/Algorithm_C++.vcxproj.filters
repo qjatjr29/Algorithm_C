@@ -426,5 +426,8 @@
     <ClCompile Include="15903번 카드합체놀이.cpp">
       <Filter>소스 파일\탐욕법</Filter>
     </ClCompile>
+    <ClCompile Include="15904번 UCPC는 무엇의 약자일까.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
