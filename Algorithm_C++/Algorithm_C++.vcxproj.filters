@@ -432,5 +432,8 @@
     <ClCompile Include="9205번 맥주마시면서 걸어가기.cpp">
       <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="11279번 최대힙.cpp">
+      <Filter>소스 파일\우선순위 큐, 힙</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
