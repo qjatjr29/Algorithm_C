@@ -441,5 +441,8 @@
     <ClCompile Include="2003번 수들의 합2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1543번 문서검색cpp.cpp">
+      <Filter>소스 파일\탐욕법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
