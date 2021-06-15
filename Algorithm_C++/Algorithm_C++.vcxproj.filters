@@ -447,5 +447,8 @@
     <ClCompile Include="1325번 효율적인 해킹.cpp">
       <Filter>소스 파일\오일러서킷,너비우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="10026번 적록색약.cpp">
+      <Filter>소스 파일\깊이우선탐색</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
