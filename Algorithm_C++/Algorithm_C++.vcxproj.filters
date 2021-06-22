@@ -453,5 +453,8 @@
     <ClCompile Include="2075번 N번째 큰수.cpp">
       <Filter>소스 파일\우선순위 큐, 힙</Filter>
     </ClCompile>
+    <ClCompile Include="1520번 내리막 길.cpp">
+      <Filter>소스 파일\동적계획법</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
