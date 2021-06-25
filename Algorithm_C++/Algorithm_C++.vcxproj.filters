@@ -462,5 +462,8 @@
     <ClCompile Include="2573번 빙산.cpp">
       <Filter>소스 파일\깊이우선탐색</Filter>
     </ClCompile>
+    <ClCompile Include="1302번 베스트셀러.cpp">
+      <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
