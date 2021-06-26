@@ -58,6 +58,9 @@
     <Filter Include="소스 파일\최소스패닝트리">
       <UniqueIdentifier>{4ebdb13f-5312-4c54-8106-be189bd3ded3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\그래프">
+      <UniqueIdentifier>{be253988-7b45-421f-ab9b-d71832d082a7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="6.3 소풍.cpp">
@@ -464,6 +467,9 @@
     </ClCompile>
     <ClCompile Include="1302번 베스트셀러.cpp">
       <Filter>소스 파일\문자열</Filter>
+    </ClCompile>
+    <ClCompile Include="17070번 파이프 옮기기1.cpp">
+      <Filter>소스 파일\그래프</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
