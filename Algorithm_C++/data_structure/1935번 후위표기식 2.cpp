@@ -74,5 +74,5 @@ double calcNum(double num1, double num2, char oper)
 	{
 		return num1 - num2;
 	}
-
+	return 0.0;
 }
