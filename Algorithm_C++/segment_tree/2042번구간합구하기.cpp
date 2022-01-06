@@ -13,6 +13,7 @@ long long result;
 long long make_segmentTree(int Node,int Start,int End){
     if(Start==End)return segmentTree[Node]=section[Start];
 
+
     int mid=(Start+End) /2;
     long long left=make_segmentTree(Node*2,Start,mid);
     long long right=make_segmentTree(Node*2+1,mid+1,End);
