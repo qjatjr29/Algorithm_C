@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "queue": "cpp"
+        "queue": "cpp",
+        "utility": "cpp"
     }
 }
