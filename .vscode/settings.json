@@ -4,6 +4,7 @@
         "queue": "cpp",
         "utility": "cpp",
         "iostream": "cpp",
-        "ios": "cpp"
+        "ios": "cpp",
+        "vector": "cpp"
     }
 }
