@@ -1,5 +1,5 @@
 {
-    "C_Cpp.errorSquiggles": "Disabled",
+    
     "files.associations": {
         "queue": "cpp",
         "utility": "cpp",
@@ -7,5 +7,8 @@
         "ios": "cpp",
         "vector": "cpp",
         "algorithm": "cpp"
-    }
+    },
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+
+    "eslint.workingDirectories": [ {"mode": "auto"} ]
 }
