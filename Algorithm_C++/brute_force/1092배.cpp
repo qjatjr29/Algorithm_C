@@ -47,7 +47,6 @@ int main()
         min_time++;
         for(int i=N-1;i>=0;i--)
         {
-            
             for(int j=box_weight.size()-1;j>=0;j--)
             {
                 if(crane[i]>=box_weight[j])
