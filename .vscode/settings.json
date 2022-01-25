@@ -6,7 +6,10 @@
         "iostream": "cpp",
         "ios": "cpp",
         "vector": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "string": "cpp",
+        "chrono": "cpp",
+        "type_traits": "cpp"
     },
     "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
 
