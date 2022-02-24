@@ -28,7 +28,7 @@ void calc()
             result[i].first += result[leftbuilding[i]].first + 1;
         }
     }
-     for(int i=N-1;i>=0;i--)
+    for(int i=N-1;i>=0;i--)
     {
         if(rightbuilding[i]==-1) 
         {
@@ -58,14 +58,12 @@ void leftSide()
             else chk.pop();
         } 
 
-        // 비교하는 탑의 stack이 빈 경우.
+        // 비교하는 건물의 stack이 빈 경우.
         // 자신의 높이보다 다 낮은 경우.
         if(chk.empty()) leftbuilding[i]=-1;
         // 현재 빌딩의 높이보다 큰 탑의 인덱스 저장.
         else 
         {
-            // result[i].second=leftbuilding[i];
-            // result[i].first += result[leftbuilding[i]].first + 1;
             leftbuilding[i]=chk.top().first;
         }
 
@@ -114,14 +112,22 @@ int main()
     cin.tie(NULL);
     cin.sync_with_stdio(false);
     cin>>N;
+
+    //현재 빌딩들의 높이 저장하는 벡터
     buildings=vector<int>(N+1,0);
+    // 높이 저장.
     for(int i=0;i<N;i++)
     {
         cin>>buildings[i];
         result[i].second=987654321;
     }
+    // i 번째 빌딩보다 왼쪽에 위치한 
+    // i 번째 빌딩보다 큰 빌딩의 인덱스 저장
     leftbuilding=vector<int>(N+1,0);
+    // i 번째 빌딩보다 오른쪽에 위치한 
+    // i 번째 빌딩보다 큰 빌딩의 인덱스 저장
     rightbuilding=vector<int>(N+1,0);
+
     leftSide();
     while(1)
     {

@@ -5,22 +5,21 @@
 #include <algorithm>
 using namespace std;
 
-vector<vector<int>> multiply(vector<vector<int>>& row, vector<vector<int>>& col, int N);
-vector<vector<int>> matrix(vector<vector<int>>& curmatrix, vector<vector<int>>& result, long long B, int N);
+vector<vector<int> > multiply(vector<vector<int> > &row, vector<vector<int> > &col, int N);
+vector<vector<int> > matrix(vector<vector<int> > &curmatrix, vector<vector<int> > &result, long long B, int N);
 
 int main()
 {
 	int N;
 	long long int B;
 	cin >> N >> B;
-	// N*N Çà·Ä B Á¦°ö!
-	// Çà·Ä °ª ÀúÀå
-	vector<vector<int>> _matrix(N, vector<int>(N, 0));
-	// °á°ú °ª ÀúÀåÇÏ´Â º¤ÅÍ
-	vector<vector<int>> result(N, vector<int>(N, 0));
+	// N*N ï¿½ï¿½ï¿½ B ï¿½ï¿½ï¿½ï¿½!
+	// ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	vector<vector<int> > _matrix(N, vector<int>(N, 0));
+	// ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½
+	vector<vector<int> > result(N, vector<int>(N, 0));
 
-
-	// Çà·Ä°ª ÀúÀå.
+	// ï¿½ï¿½Ä°ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	for (int i = 0; i < N; i++)
 	{
 		for (int j = 0; j < N; j++)
@@ -43,18 +42,17 @@ int main()
 		cout << "\n";
 	}
 
-
 	return 0;
 }
 
-// Çà·Ä °öÇÏ´Â ÇÔ¼ö
-vector<vector<int>> multiply(vector<vector<int>>& row, vector<vector<int>>& col, int N)
+// ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ï´ï¿½ ï¿½Ô¼ï¿½
+vector<vector<int> > multiply(vector<vector<int> > &row, vector<vector<int> > &col, int N)
 {
-	// °öÇÑ °á°ú ÀúÀå ÇÏ´Â º¤ÅÍ
-	// nÅ©±â¸¸Å­ 0À¸·Î ÃÊ±âÈ­ ÇÑ º¤ÅÍ
-	vector<vector<int>> store(N, vector<int>(N, 0));
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ï´ï¿½ ï¿½ï¿½ï¿½ï¿½
+	// nÅ©ï¿½â¸¸Å­ 0ï¿½ï¿½ï¿½ï¿½ ï¿½Ê±ï¿½È­ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+	vector<vector<int> > store(N, vector<int>(N, 0));
 
-	// store º¤ÅÍ¿¡ °è»êÇÑ °á°ú°ª ÀúÀå.
+	// store ï¿½ï¿½ï¿½Í¿ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.
 	for (int i = 0; i < N; i++)
 	{
 		for (int j = 0; j < N; j++)
@@ -64,35 +62,36 @@ vector<vector<int>> multiply(vector<vector<int>>& row, vector<vector<int>>& col,
 				store[i][j] += (row[i][z] * col[z][j]);
 				store[i][j] %= 1000;
 			}
-			//store[i][j] %= 1000;
+			// store[i][j] %= 1000;
 		}
 	}
 
 	return store;
 }
 
-vector<vector<int>> matrix(vector<vector<int>>& curmatrix, vector<vector<int>>& result, long long B, int N)
+vector<vector<int> > matrix(vector<vector<int> > &curmatrix, vector<vector<int> > &result, long long B, int N)
 {
-	// 2·Î °è¼Ó ³ª´©´Ù°¡ ¸¶Áö¸·¿¡ 1ÀÏ¶§ ¸®ÅÏ.
-	if (B == 1) return result;
+	// 2ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ù°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 1ï¿½Ï¶ï¿½ ï¿½ï¿½ï¿½ï¿½.
+	if (B == 1)
+		return result;
 
-	vector<vector<int>> temp(N, vector<int>(N, 0));
-	// 2ÀÇ ¹è¼öÀÏ¶§.
+	vector<vector<int> > temp(N, vector<int>(N, 0));
+	// 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½Ï¶ï¿½.
 	if (B % 2 == 0)
 	{
-		// 2·Î °è¼Ó ³ª´²ÁÜ.
-		// 2n -> n,n À¸·Î ³ª´«°Å
+		// 2ï¿½ï¿½ ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+		// 2n -> n,n ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 		temp = matrix(curmatrix, result, (B / 2), N);
-		// n,n À¸·Î ³ª´³À¸´Ï±ñ ´Ù½Ã n*n ÇØÁà¾ßÇÔ.
+		// n,n ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½Ù½ï¿½ n*n ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 		return multiply(temp, temp, N);
 	}
-	// 1ÀÌ ¾Æ´Ï°í 2ÀÇ ¹è¼ö°¡ ¾Æ´Ò¶§
-	// n/n ³ª´©°í ÇÑ¹ø´õ °öÇØÁÖ´Â ½Ä.
-	// n-1 ÇØÁÖ¸é Â¦¼ö. --> temp¿¡ Â¦¼öÀÏ¶§ °ª ¸®ÅÏ ¹Þ°í ¸¶Áö¸·¿¡ ¸®ÅÏÇÒ¶§ ÇÑ¹ø´õ °öÇØÁÜ.
+	// 1ï¿½ï¿½ ï¿½Æ´Ï°ï¿½ 2ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ´Ò¶ï¿½
+	// n/n ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ñ¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½ï¿½.
+	// n-1 ï¿½ï¿½ï¿½Ö¸ï¿½ Â¦ï¿½ï¿½. --> tempï¿½ï¿½ Â¦ï¿½ï¿½ï¿½Ï¶ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Þ°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ò¶ï¿½ ï¿½Ñ¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
 	else
 	{
 		temp = matrix(curmatrix, result, B - 1, N);
 	}
-	// ÇÑ¹ø ´õ °öÇØÁÖ±â 
+	// ï¿½Ñ¹ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ö±ï¿½
 	return multiply(temp, curmatrix, N);
 }
