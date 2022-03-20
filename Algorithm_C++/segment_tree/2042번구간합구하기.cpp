@@ -13,7 +13,6 @@ long long result;
 long long make_segmentTree(int Node,int Start,int End){
     if(Start==End)return segmentTree[Node]=section[Start];
 
-
     int mid=(Start+End) /2;
     long long left=make_segmentTree(Node*2,Start,mid);
     long long right=make_segmentTree(Node*2+1,mid+1,End);
@@ -62,7 +61,7 @@ int main()
     
     for(int i=0;i<N;i++)
     {
-        int number;
+        long long number;
         cin>>number;
         section[i]=number;
     }
@@ -83,7 +82,9 @@ int main()
         long long gap;
         if(cmd==1)
         {
+            // 바꾸는 값과 원래 있던 값의 차.
             gap=value-section[index-1];
+            // 값 교체.
             section[index-1]=value;
             Update_segmentTree(1,0,N-1,index-1,gap);
         }
@@ -92,8 +93,6 @@ int main()
             result=sum_segmentTree(1,0,N-1,index-1,value-1);
             cout<<result<<"\n";
         }
-       
-     
     }
     return 0;
 }
